@@ -383,7 +383,7 @@ body{
     .header h2 {
         width: 80%;
         margin: 0;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .header {
@@ -410,38 +410,42 @@ body{
     }
 
     .para {
-        display: none;
+        position: absolute;
+        display: block;
+        width: 70%;
+        top: 87%;  
     }
 
     .heading-wrap {
         float: right;
         width: 90%;
-        height: 200px;
+        height: 140px;
     }
 
     .heading h1 {
         margin: 0;
-        font-size: 2.4rem;
-        width: 20rem;
-        margin-top: 40px;
+        font-size: 2.1rem;
+        width: 19rem;
+        margin-top: 20px;
     }
 
     .card-wrap {
         flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-evenly;
-        height: 60vh;
+        width: 80%;
+        justify-content: space-around;
+        height: 50vh;
+        margin-left: 40px;
     }
 
-       .card-wrap .cards {
-        width: 10rem;
-        height: 12rem;
+    .card-wrap .cards {
+        width: 8rem;
+        height: 10rem;
         padding: 5px;
     }
 
     .card-wrap img {
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
         border-radius: 90px;
         padding: 10px;
     }
