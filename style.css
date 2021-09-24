@@ -173,12 +173,12 @@ body{
 
 /* collapse menu */
 .sidebar {
-    width: 25rem;
+    width: 30rem;
     height: 50rem;
     position: absolute;
     background-color: #FAFAFA;
     top: 0;
-    left: -25rem;
+    left: -30rem;
     transition: left 0.5s;
 }
 
@@ -210,7 +210,6 @@ body{
 
   }
 
-
 .sidebar ul {
     padding: 0;
     margin-top: 10rem;
@@ -225,7 +224,7 @@ body{
     font-size: 1.5rem;
 }
 
-.sidebar li:hover {
+.change .sidebar li:hover {
     text-decoration: line-through #FF4E4E;
 }
 
@@ -443,9 +442,272 @@ body{
 }
 
 
-
 @media (max-width: 950px) {
     .sidebar {
+        display: block;
+    }
+
+    .header .remove {
+        display: none;
+    }
+    .header h2 {
+        width: 80%;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .header {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header .fas {
+        display: inline-block;
+        font-size: 1.56rem;
+        margin-right: 1.87rem;
+    }
+
+    .header .hamburger{
+        display: inline-block;
+        margin: 0;
+        margin-left: 1.87rem;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .para {
+        position: absolute;
+        display: block;
+        width: 30%;
+        top: 10rem;
+        left: 37rem;  
+
+    }
+
+    .para p {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+    }
+
+    .para .underline{
+        width: 4rem;
+    }
+
+    .heading-wrap {
+        float: right;
+        width: 90%;
+        height: 20rem;
+    }
+
+    .heading h1 {
+        margin: 0;
+        font-size: 2.8rem;
+        width: 24rem;
+        margin-top: 1.25rem;
+    }
+
+    .card-wrap {
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-around;
+        height: 12rem;
+        margin-left: 5rem;
+    }
+
+    .card-wrap .cards {
+        width: 8rem;
+        height: 10rem;
+        padding: 0.31rem;
+    }
+
+    .card-wrap img {
+        width: 5.62rem;
+        height: 5.62rem;
+        border-radius: 90px;
+        padding: 0.62rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        display: block;
+    }
+
+    .header .remove {
+        display: none;
+    }
+    .header h2 {
+        width: 80%;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .header {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header .fas {
+        display: inline-block;
+        font-size: 1.56rem;
+        margin-right: 1.87rem;
+    }
+
+    .header .hamburger{
+        display: inline-block;
+        margin: 0;
+        margin-left: 1.87rem;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .para {
+        position: absolute;
+        display: block;
+        width: 30%;
+        top: 10rem;
+        left: 33rem;  
+
+    }
+
+    .para p {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+    }
+
+    .para .underline{
+        width: 4rem;
+    }
+
+    .heading-wrap {
+        float: right;
+        width: 90%;
+        height: 20rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .sidebar {
+        display: block;
+    }
+
+    .header .remove {
+        display: none;
+    }
+    .header h2 {
+        width: 80%;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .header {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header .fas {
+        display: inline-block;
+        font-size: 1.56rem;
+        margin-right: 1.87rem;
+    }
+
+    .header .hamburger{
+        display: inline-block;
+        margin: 0;
+        margin-left: 1.87rem;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .para {
+        position: absolute;
+        display: block;
+        width: 30%;
+        top: 10rem;
+        left: 28rem;  
+
+    }
+
+    
+    .card-wrap {
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-around;
+        height: 23.12rem;
+        margin-left: 4rem;
+    }
+
+    .heading h1 {
+        margin: 0;
+        font-size: 2.2rem;
+        width: 19rem;
+        margin-top: 1.25rem;
+    }
+
+    .para p {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+        font-size: 0.7rem;
+    }
+
+    .para .underline{
+        width: 4rem;
+    }
+
+    .heading-wrap {
+        float: right;
+        width: 90%;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-wrap {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        height: 23.12rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .para {
+        left: 25rem;
+    }
+
+    .card-wrap .card-4 {
+        display: none;
+    }
+
+    .card-wrap {
+        margin-left: 1rem;
+    }
+
+    .heading-wrap {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .sidebar {
+        display: block;
+    }
+
+    .card-wrap .card-4 {
         display: block;
     }
 
@@ -484,8 +746,9 @@ body{
     .para {
         position: absolute;
         display: block;
-        width: 70%;
-        top: 42rem;  
+        width: 50%;
+        top: 42rem;
+        left: 3rem;  
 
     }
 
@@ -516,7 +779,7 @@ body{
         width: 80%;
         justify-content: space-around;
         height: 23.12rem;
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }
 
     .card-wrap .cards {
@@ -530,5 +793,56 @@ body{
         height: 5.62rem;
         border-radius: 90px;
         padding: 0.62rem;
+    }
+
+}
+
+@media(max-width: 450px) {
+    .sidebar {
+        width: 27.5rem;
+        left: -27.5rem;
+    }
+
+    .para{
+        top: 41.5rem;
+        width: 60%;
+    }
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        width: 25rem;
+        left: -25rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .sidebar {
+        width: 22rem;
+        left: -22rem;
+    }
+
+    .card-wrap .cards {
+        width: 7rem;
+        height: 9rem;
+        padding: 0.31rem;
+    }
+
+    .card-wrap h3 {
+        font-size: 0.7rem
+    }
+
+    .card-wrap img {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50px;
+    }
+
+    .card-wrap {
+        margin-left: 2rem;
+    }
+
+    .para {
+        top: 41rem;
     }
 }
