@@ -17,7 +17,7 @@
         <div class="header">
             <div class="hamburger">
                 <div class="line line-1"></div>
-                <div class="line"></div>
+                <div class="line line-2"></div>
                 <div class="line line-3"></div>
             </div>
         <h2>Lorem <span class="remove">Ipsum</span></h2>
@@ -71,7 +71,26 @@
             <h3>Hakka Noodles</h3>
           </div>
       </div>
+      <div class="sidebar">
+          <ul>
+            <li class="about"><span>About</span></li>
+            <li><span>Services</span></li>
+            <li><span>Cuisines</span></li>
+            <li><span>Gallery</span></li>
+            <li><span>Contact</span></li>
+            <li class="book"><span>Book</span></li>
+          </ul>
+      </div>
     </div>
+      
+
+    <script>
+      let hamburger = document.querySelector('.hamburger');
+      let container = document.querySelector('.container')
+      hamburger.addEventListener("click", () => {
+        container.classList.toggle("change")
+      })
+    </script>
   </body>
 </html>
 
