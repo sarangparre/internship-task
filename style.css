@@ -413,7 +413,7 @@ body{
         position: absolute;
         display: block;
         width: 70%;
-        top: 84%;  
+        top: 103%;  
     }
 
     .heading-wrap {
@@ -433,7 +433,7 @@ body{
         flex-wrap: wrap;
         width: 80%;
         justify-content: space-around;
-        height: 47vh;
+        height: 59vh;
         margin-left: 40px;
     }
 
