@@ -414,6 +414,16 @@ body{
         display: block;
         width: 70%;
         top: 42rem;  
+
+    }
+
+    .para p {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+    }
+
+    .para .underline{
+        width: 4rem;
     }
 
     .heading-wrap {
