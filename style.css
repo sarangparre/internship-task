@@ -413,13 +413,13 @@ body{
         position: absolute;
         display: block;
         width: 70%;
-        top: 103%;  
+        top: 85%;  
     }
 
     .heading-wrap {
         float: right;
         width: 90%;
-        height: 140px;
+        height: 150px;
     }
 
     .heading h1 {
@@ -433,7 +433,7 @@ body{
         flex-wrap: wrap;
         width: 80%;
         justify-content: space-around;
-        height: 59vh;
+        height: 48vh;
         margin-left: 40px;
     }
 
