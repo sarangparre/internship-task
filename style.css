@@ -805,7 +805,11 @@ body{
 
     .para{
         top: 41.5rem;
-        width: 60%;
+        width: 80%;
+    }
+
+    .para p {
+        font-size: 1rem;
     }
 }
 
@@ -813,6 +817,19 @@ body{
     .sidebar {
         width: 25rem;
         left: -25rem;
+    }
+
+    .para{
+        top: 41.5rem;
+        width: 80%;
+    }
+
+    .para p {
+        font-size: 0.9rem;
+    }
+
+    .card-wrap {
+        margin-left: 2.3rem;
     }
 }
 
